@@ -5,17 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/page-landing.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" 
         rel="stylesheet">
 </head>
 <body id="page-landing">
     <div id="container">
-        <h1>Proffy</h1>
-        <p>Your study platform</p>
-        <img src="/images/landing.svg" alt="Logo">
-        <button>Class</button>
-        <button>Study</button>
+        <div class="logo-container">
+            <img src="/images/logo.svg" alt="Logo">
+            <h2>Your study platform</h2>
+        </div>
+
+        <img class="hero-image" src="images/landing.svg" alt="Study Platform">
+        
+        <div class="buttons-container">
+            <a class="study" href="/study.html">
+                <img src="/images/icons/study.svg" alt="study">
+                Study
+            </a>
+            <a class="give-class" href="/give-class.html">
+                <img src="/images/icons/give-classes.svg" alt="Class">
+                Class
+            </a>
+        </div>
+
+        <p class="total-connections">
+            Total of 200 connections made
+            <img src="/images/icons/purple-heart.svg" alt="Purple Heart">
+        </p>
     </div>
     
 </body>
